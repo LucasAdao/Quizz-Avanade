@@ -15,6 +15,11 @@ function mudarPaginaDesc(novaPagina) {
   window.location.href = novaPagina;
 }
 
+function reiniciarQuiz(novaPagina) {
+  window.location.href = novaPagina;
+  localStorage.clear();
+}
+
 window.onload = function() {
     const pontuacaoFinalElement = document.getElementById('pontuacaoFinal');
     const pontuacaoSalva = localStorage.getItem('pontuacao');
@@ -25,5 +30,4 @@ window.onload = function() {
     } else {
         pontuacaoFinalElement.textContent = 'Zero';
     }
-    localStorage.clear();
 };
