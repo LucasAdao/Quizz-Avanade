@@ -29,7 +29,7 @@ main{
     
 }
 .button{
-    padding:3.5%;
+    padding:2%;
     margin-left: 12%;
     margin-top: 6%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -52,7 +52,7 @@ button:active{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     font-style: oblique;
-    padding: 2.0%;
+    padding: 1.0%;
     margin-left: 45%;
 }
 .button-image:hover{
