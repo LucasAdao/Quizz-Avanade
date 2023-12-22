@@ -22,7 +22,7 @@ que beneficiarão a todos. Estaremos continuamente atualizando o conteúdo, ent�
 
 ## Como Usar 	&#128377;&#65039;
 
-- [Github Pages]()
+- [Github Pages](https://josecmessias.github.io/Quizz-Avanade/)
 
 ## Características 		&#128221;
 
