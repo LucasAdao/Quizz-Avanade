@@ -1,34 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avanade - Quizz</title>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/image/fav-icon.png">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" type="image/x-icon" href="assets/image/fav-icon.png">
+
+   <link rel="stylesheet" href="styles/resetLogin.css">
+   <link rel="stylesheet" href="styles/login.css">
+
+   <script defer src="./js/script.js"></script>
+
+   <title>Quizz</title>
 </head>
 <body>
-    <main>
-        <div id="container-principal">
-            
-            <div id="logo"> 
-                <img src="assets/image/logo.png" alt="Logo da avanade" width="270px">
-            </div>
-            
-            <div id="perguntas">
-                <p>Em que ano foi fundada a Avanade?</p>
-            </div>
 
-            <div id="respostas">
-                <button class="button" onclick="mudarPagina('question2.html')">2000</button>
-                <button class="button" onclick="mudarPagina('index.html')">1984</button>
-                <button class="button" onclick="mudarPagina('index.html')">2012</button>
-                <button class="button" onclick="mudarPagina('index.html')">2006</button>
-            </div>
-        </div>
-        
-        <script src="js/script.js"></script>
-    </main>
+   <form class="login-form">
+
+      <div class="login__header">
+         <img src="assets/image/logoAvanade.png" alt="">
+         <h1>Quizz Avanade</h1>
+      </div>
+
+      <button type="submit" class="login__button">Play</button>
+
+   </form>
+
 </body>
 </html>
