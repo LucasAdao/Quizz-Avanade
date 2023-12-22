@@ -24,26 +24,32 @@ main{
     padding: 2%;
 }
 #repostas{
-    width: 70%;
-    
-    
+    width: 70%; 
 }
-.button{
+
+.opcao__Button, .opcao__Correta{
     padding:3.5%;
     margin-left: 12%;
     margin-top: 6%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     font-style: oblique;
-    
 }
-.button:hover{
+.opcao__Button:hover, .opcao__Correta:hover{
     border: 1px solid orange;
 }
 
-button:active{
+.opcao__Button:active{
     background-color: orange;
+    color: #fff;
 }
+
+.opcao__Correta:active{
+    background-color: rgb(93, 138, 3);
+    border: 1px solid rgb(93, 138, 3);
+    color: #fff;
+}
+
 .image-quiz{
     text-align: center;
 }
