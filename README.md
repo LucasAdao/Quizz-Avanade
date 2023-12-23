@@ -1,4 +1,8 @@
 
+<h1>
+  PESSOAL O QUIZZ VAI VOLTAR A FUNCIONAR APENAS NA TERÇA 26/12, ELE ESTÁ COM ALGUNS BUGS
+</h1>
+
 <h1 align="center">
   <img width="700" alt="API-VEICULOS-GITHUB" src="https://github.com/JoseCMessias/Quizz-Avanade/assets/104660308/afd31473-21d0-485b-a2b1-95448f13f016">
 </h1>
