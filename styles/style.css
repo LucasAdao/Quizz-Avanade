@@ -13,7 +13,7 @@ main{
 #container-principal-1{
     border: 2px solid orange;
     height: 600px;
-    background-image: url(/assets/image/CapaAvanade.png);   
+    background-image: url(../assets/image/CapaAvanade.png);   
     background-size: cover;
 }
 #botao-modulo-1{
@@ -32,7 +32,7 @@ main{
 #container-principal-2{
     border: 2px solid purple;
     height: 600px;
-    background-image: url(/assets/image/CapaCsharp.png);   
+    background-image: url(../assets/image/CapaCsharp.png);   
     background-size: cover;
 }
 #botao-modulo-2{
