@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avanade - Quizz</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/image/fav-icon.png">
+</head>
+<body>
+    <main>
+        <div id="container-principalC">
+            
+            <div id="logoC"> 
+                <img src="assets/image/csharpLogo.png" alt="Logo da avanade" width="120x" height="100px">
+            </div>
+            
+            <div id="perguntasC">
+                <p>Quais as diferenças entre .NET Core e .NET Framework?</p>
+            </div>
+
+            <div id="respostas">
+
+                <button class="opcao__ButtonC" onclick="questaoIncorreta('question12.html')">Pequenas Evoluções e uma modernização na maneira de escrever o código</button>
+                <button class="opcao__ButtonC" onclick="questaoIncorreta('question12.html')">O .NET Core executa na nuvem, enquanto o .NET Framework executa apenas em Windows</button>
+                <button class="opcao__CorretaC" onclick="questaoCorreta('question12.html')">O .NET Core é multiplataforma(Linux,Mac,Windows...), enquanto o .NET Framework só executa em Windows</button>
+                <button class="opcao__ButtonC" onclick="questaoIncorreta('question12.html')">Não existe diferença, o nome foi mudado apenas por convenção!</button>
+
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+    </main>
+</body>
+</html>
