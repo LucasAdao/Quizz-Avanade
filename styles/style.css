@@ -242,8 +242,46 @@ main{
     border: 1px solid rgb(93, 138, 3);
     color: #fff;
 }
-#logoC{
+#logoG{
     
     margin-top: 0.7%;
-    margin-left: 47%;
+    margin-left: 45%;
+}
+/*
+Fim
+-----------------------
+*/
+
+#agradecimentos{
+    border: 1px solid orangered;
+    margin: 4%;
+    height: 50%;
+    border-radius: 10%;
+    background-color: rgba( 155, 155, 155, 0.2 );
+}
+#container-principal-fim{
+    border: 2px solid rgb(0, 0, 0);
+    height: 600px;    
+    
+    
+}
+#body-fim{
+    background-color: rgb(253, 170, 15);
+    
+}
+#main-fim{
+    background-color: rgba( 155, 155, 155, 0.73 );
+}
+#cabecalho-fim{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 2%;
+    justify-content: center;
+    padding: 2%;
+}
+#p-fim{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin-left: 45%;
 }

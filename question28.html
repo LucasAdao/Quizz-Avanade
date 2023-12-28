@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avanade - Quizz</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/image/fav-icon.png">
+</head>
+<body>
+    <main>
+        <div id="container-principalG">
+            
+            <div id="logoG"> 
+                <img src="assets/image/GitHub-Logo.png" alt="Logo da avanade" width="170x" height="110px">
+            </div>
+            
+            <div id="perguntasC">
+                <p>Qual o comando para realizar um commit?</p>
+            </div>
+
+            <div id="respostas">
+
+                <button class="opcao__ButtonG" onclick="questaoIncorreta('fim.html')">git commit --message "mensagem" </button>
+                <button class="opcao__CorretaG" onclick="questaoCorreta('fim.html')">git commit --amend -m "mensagem"</button>
+                <button class="opcao__ButtonG" onclick="questaoIncorreta('fim.html')">git commit --information "mensagem"</button>
+                <button class="opcao__ButtonG" onclick="questaoIncorreta('fim.html')">github mensagem "mensagem"</button>
+                
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+    </main>
+</body>
+</html>
