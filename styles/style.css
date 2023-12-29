@@ -321,8 +321,4 @@ Fim
     font-family: 'Press Start 2P', cursive;
     
 }
-/* Estilo para os controles de áudio */
-audio::-webkit-media-controls {
-    background-color:rgba(248, 190, 229, 0);
-    border-radius: 5px;
-  }
+
