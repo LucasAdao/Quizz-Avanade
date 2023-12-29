@@ -25,6 +25,7 @@ main{
     padding: 1.7%;
     border: rgb(209, 95, 3) solid 2px;
     cursor: pointer;
+    transition: 0.5s;
 }
 #botao-modulo-1:hover{
     border: 3px solid rgb(209, 95, 3);
@@ -47,6 +48,7 @@ main{
     padding: 1.7%;
     border: purple 2px solid;
     cursor: pointer;
+    transition: 0.5s;
 }
 #botao-modulo-2:hover{
     border: 3px solid purple;
@@ -68,6 +70,7 @@ main{
     padding: 1.7%;
     border: black 2px solid;
     cursor: pointer;
+    transition: 0.5s;
 }
 #botao-modulo-3:hover{
     border: 3px solid black;
@@ -253,27 +256,31 @@ Fim
 */
 
 #agradecimentos{
-    border: 1px solid orangered;
-    margin: 4%;
-    height: 50%;
+    border: 1px solid rgb(240, 130, 203);
+    margin-top: 1%;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 1.5%;
+    height: 40%;
     border-radius: 10%;
-    background-color: rgba( 155, 155, 155, 0.2 );
+    background-color: rgba(255, 221, 241, 0.8);
+    text-align: justify;
 }
 #container-principal-fim{
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 71, 215);
     height: 600px;    
-    
-    
+    border-radius: 2%;    
 }
 #body-fim{
-    background-color: rgb(253, 170, 15);
+    background-image: url(../assets/image/fim.png);
+    background-size: cover;
     
 }
 #main-fim{
-    background-color: rgba( 155, 155, 155, 0.73 );
+    background-color: rgba(248, 190, 229, 0.5);
 }
 #cabecalho-fim{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Press Start 2P', cursive;
     font-size: 32px;
     text-align: center;
     margin-top: 2%;
@@ -281,7 +288,41 @@ Fim
     padding: 2%;
 }
 #p-fim{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(153, 26, 153);
     width: 10%;
-    margin-left: 45%;
+    margin-left: 46%;
+    color: rgb(153, 26, 153);
 }
+
+#botao-reiniciar-quiz{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    color:  rgb(153, 26, 153);
+    margin-left: 40.5%;
+    padding: 1.7%;
+    border: rgb(153, 26, 153) solid 2px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 1%;
+}
+#botao-reiniciar-quiz:hover{
+    border: 3px solid rgb(153, 26, 153);
+    color: #fff;
+    background-color: rgb(153, 26, 153);
+}
+#audio{
+    text-align: center;
+    margin: 1% ;
+    margin-top: 5%;
+}
+#mensagem{
+    margin: 5.5%;
+    font-size: 22px;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+/* Estilo para os controles de áudio */
+audio::-webkit-media-controls {
+    background-color:rgba(248, 190, 229, 0);
+    border-radius: 5px;
+  }

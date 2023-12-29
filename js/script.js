@@ -6,6 +6,7 @@ function questaoIncorreta(novaPagina) {
     window.location.href = novaPagina;
     alert("Alternativa Incorreta! D:")
 }
+
 function startButton(novaPagina) { 
     window.location.href = novaPagina;
 }
