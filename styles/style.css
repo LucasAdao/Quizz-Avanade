@@ -120,6 +120,7 @@ main{
     width: 80%;
     background-color: rgb(219, 216, 216);
     border-radius: 5%;
+    border: 1px solid white;
     
 }
 .opcao__Button:hover, .opcao__Correta:hover{
@@ -181,6 +182,7 @@ main{
     width: 80%;
     background-color: rgb(219, 216, 216);
     border-radius: 5%;
+    border: 1px solid white;
     
 }
 .opcao__ButtonC:hover, .opcao__CorretaC:hover{
@@ -229,6 +231,7 @@ main{
     width: 80%;
     background-color: rgb(219, 216, 216);
     border-radius: 5%;
+    border: 1px solid white;
     
 }
 .opcao__ButtonG:hover, .opcao__CorretaG:hover{
